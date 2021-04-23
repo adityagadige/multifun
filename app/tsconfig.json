@@ -1,0 +1,14 @@
+{
+    "extends": "../tsconfig.base",
+    "compilerOptions": {
+        "removeComments": true,
+        // "outFile": "../js/app.js"  // output all .ts files to a signle js file
+        "module": "commonjs",
+        "moduleResolution":"node",
+        // "traceResolution": true  // cosnole logs the trace of module resolution
+    },
+    // "include": [
+    //     "./**/*"
+    // ],
+    "files":["./app.ts"]
+}
